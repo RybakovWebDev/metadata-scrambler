@@ -1,0 +1,15 @@
+.wrapper {
+  margin: 3rem 0 0 0;
+  width: 100%;
+  max-width: 1080px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper p {
+  margin: 1rem 0 0 0;
+  max-width: 500px;
+  text-align: center;
+}

@@ -1,0 +1,55 @@
+.wrapper {
+  position: relative;
+  margin: 3rem 0 0 0;
+  height: 40vh;
+  width: 100%;
+  max-width: 1080px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  overflow: hidden;
+  /* background: linear-gradient(90deg, black 50%, transparent 50%), linear-gradient(90deg, black 50%, transparent 50%),
+    linear-gradient(0deg, black 50%, transparent 50%), linear-gradient(0deg, black 50%, transparent 50%); */
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px dashed black;
+  /* background-repeat: repeat-x, repeat-x, repeat-y, repeat-y; */
+  /* background-size: 11px 1px, 11px 1px, 1px 11px, 1px 11px; */
+}
+
+.wrapper:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.wrapper button {
+  padding: 2rem;
+  font-size: 20px;
+  border: none;
+}
+
+.wrapper input {
+  display: none;
+}
+
+.backgroundGradient {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  scale: 3;
+  background-image: linear-gradient(
+    80deg,
+    hsl(0deg 0% 47%) 0%,
+    hsl(0deg 0% 58%) 20%,
+    hsl(0deg 0% 68%) 29%,
+    hsl(0deg 0% 79%) 36%,
+    hsl(0deg 0% 89%) 43%,
+    hsl(0deg 0% 100%) 50%,
+    hsl(0deg 0% 85%) 57%,
+    hsl(0deg 0% 70%) 64%,
+    hsl(0deg 0% 55%) 71%,
+    hsl(0deg 0% 40%) 80%,
+    hsl(0deg 0% 26%) 100%
+  );
+  z-index: -50;
+  rotate: 45deg;
+}
